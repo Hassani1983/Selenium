@@ -9,8 +9,6 @@ Driver = webdriver.Chrome(executable_path=ChromeDriverManager().install())
 Driver.get("https://google.com")
 sleep(2)
 
-# cpmmmmm
-
 # # Browser Action 2 > print Title
 # Window_title = Driver.title
 # print(Window_title)
